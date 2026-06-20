@@ -1,4 +1,36 @@
-#!/bin/bash
+#--------- beginning of crash
+06-18 19:00:59.981 1446 1446 I emdlogger: mtk-brm-commit-id:0149be3e5ea8d97c20d9e9ccd779d689647bc86e
+06-18 19:00:59.982 1446 1446 I emdlogger: mtk-brm-change-id:Ibe88044e4abd5f455c323abcbabb36615a307b98
+06-18 19:00:59.982 1446 1446 I emdlogger: mtk-brm-merge-id:none
+06-18 19:01:00.145 1422 1422 I libimsma_adapt: mtk-brm-commit-id:86b746c21fd235c214611f3344cf70649e895fd7
+06-18 19:01:00.145 1422 1422 I libimsma_adapt: mtk-brm-change-id:I44c926fb2a62b0816d0a8d12e3957bca373f1721
+06-18 19:01:00.145 1422 1422 I libimsma_adapt: mtk-brm-merge-id:none
+--------- beginning of system
+06-20 12:45:44.028 1879 3170 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.029 1879 3170 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.097 1879 5490 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.097 1879 5490 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.098 1879 5490 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.278 1879 3170 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.279 1879 3170 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.279 1879 3170 W JobScheduler.JobStatus: Exempted app com.aura.news.hashtag.news considered buggy
+06-20 12:45:44.451 1879 1931 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=90.0, presentationDeadlineNanos=17666667, appVsyncOffsetNanos=-2777778, frameRateOverrides=[]
+06-20 12:45:44.451 1879 1929 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(720 x 1604) immediately
+06-20 12:45:48.214 1879 1931 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=11666667, appVsyncOffsetNanos=2000000, frameRateOverrides=[]
+06-20 12:45:48.216 1879 1929 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(720 x 1604) immediately
+06-20 12:45:49.612 1879 1931 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=90.0, presentationDeadlineNanos=17666667, appVsyncOffsetNanos=-2777778, frameRateOverrides=[]
+06-20 12:45:49.613 1879 1929 D WindowManager: DeferredDisplayUpdater: partially applying DisplayInfo(720 x 1604) immediately
+06-20 12:45:50.079 1879 5490 I ActivityManager: appDiedLocked: app=ProcessRecord{a664ed9 7622:com.google.android.rkpdapp/u0a444} thread=android.os.BinderProxy@8533b60 fromBinderDied=true isKilledByAm=false reason=null
+06-20 12:45:50.079 1879 5490 I ActivityManager: Process com.google.android.rkpdapp (pid 7622) has died: cch+95 CEM
+06-20 12:45:50.096 1879 5490 D RestartModeController: markWaitRestartAppIsSuicided null processName=com.google.android.rkpdapp
+06-20 12:45:50.121 1879 5490 D ActivityTaskManager: handleAppDied: uid=10444,diedCount=1,lastDiedTime=92789175,forceStopUids=false
+06-20 12:45:50.246 1879 5490 I ActivityManager: appDiedLocked: app=ProcessRecord{b094857 7970:com.google.android.euicc/u0a116} thread=android.os.BinderProxy@7930da8 fromBinderDied=true isKilledByAm=false reason=null
+06-20 12:45:50.247 1879 5490 I ActivityManager: Process com.google.android.euicc (pid 7970) has died: cch+75 CEM
+06-20 12:45:50.254 1879 5490 D RestartModeController: markWaitRestartAppIsSuicided null processName=com.google.android.euicc
+06-20 12:45:50.255 1879 5490 D ActivityTaskManager: handleAppDied: uid=10262,diedCount=1,lastDiedTime=92789466,forceStopUids=false
+06-20 12:45:50.256 1879 2697 I ActivityManager: appDiedLocked: app=ProcessRecord{99bc658 7138:com.android.vending:quick_launch/u0a317} thread=android.os.BinderProxy@1ffe9c0 fromBinderDied=true isKilledByAm=false reason=null
+06-20 12:45:50.256 1879 2697 I ActivityManager: Process com.android.vending:quick_launch (pid 7138) has died: cch+75 CEM
+!/bin/bash
 #
 # Harbor Backup Script
 #
